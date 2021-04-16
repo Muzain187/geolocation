@@ -25,7 +25,7 @@ button.addEventListener('click',function(){
         let C = A/B;
         let D = Math.atan(C)*180/Math.PI;
         let direction  = Math.round(360-D);
-        qibla.innerHTML = `The Qibla direction angle is ${direction}&deg`;
+        qibla.innerHTML = `The Qibla direction angle is ${direction}&deg;`;
          console.log(360-D);
     }
     else{
